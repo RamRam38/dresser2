@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA709EF204DBC0C00FD1B8E /* DressCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA709EE204DBC0C00FD1B8E /* DressCombination.swift */; };
+		1EA709F1204DBD0000FD1B8E /* ClassSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA709F0204DBD0000FD1B8E /* ClassSchedule.swift */; };
+		1EA70A00204DD1D200FD1B8E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA709FF204DD1D200FD1B8E /* Weather.swift */; };
+		1EA70A03204DD8C900FD1B8E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA70A02204DD8C900FD1B8E /* CoreLocation.framework */; };
 		1EE7AFCE2048FD830051F819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7AFCD2048FD830051F819 /* AppDelegate.swift */; };
-		1EE7AFD02048FD830051F819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7AFCF2048FD830051F819 /* ViewController.swift */; };
 		1EE7AFD32048FD830051F819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7AFD12048FD830051F819 /* Main.storyboard */; };
 		1EE7AFD52048FD830051F819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7AFD42048FD830051F819 /* Assets.xcassets */; };
 		1EE7AFD82048FD830051F819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7AFD62048FD830051F819 /* LaunchScreen.storyboard */; };
 		1EE7AFE32048FD830051F819 /* Dress_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7AFE22048FD830051F819 /* Dress_CoordinatorTests.swift */; };
 		1EE7AFEE2048FD830051F819 /* Dress_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7AFED2048FD830051F819 /* Dress_CoordinatorUITests.swift */; };
+		1EE7AFFC204A3BBA0051F819 /* ChooseDressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7AFFB204A3BBA0051F819 /* ChooseDressViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA709EE204DBC0C00FD1B8E /* DressCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DressCombination.swift; sourceTree = "<group>"; };
+		1EA709F0204DBD0000FD1B8E /* ClassSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSchedule.swift; sourceTree = "<group>"; };
+		1EA709FF204DD1D200FD1B8E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		1EA70A02204DD8C900FD1B8E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1EE7AFCA2048FD830051F819 /* Dress Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dress Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE7AFCD2048FD830051F819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EE7AFCF2048FD830051F819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EE7AFD22048FD830051F819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE7AFD42048FD830051F819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE7AFD72048FD830051F819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		1EE7AFE92048FD830051F819 /* Dress CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dress CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE7AFED2048FD830051F819 /* Dress_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dress_CoordinatorUITests.swift; sourceTree = "<group>"; };
 		1EE7AFEF2048FD830051F819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE7AFFB204A3BBA0051F819 /* ChooseDressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDressViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA70A03204DD8C900FD1B8E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA709F2204DBD7D00FD1B8E /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7AFCD2048FD830051F819 /* AppDelegate.swift */,
+			);
+			name = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		1EA709F3204DBD9000FD1B8E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7AFFB204A3BBA0051F819 /* ChooseDressViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1EA709F4204DBDA900FD1B8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EA709F0204DBD0000FD1B8E /* ClassSchedule.swift */,
+				1EA709EE204DBC0C00FD1B8E /* DressCombination.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1EA709F5204DBDDF00FD1B8E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7AFD12048FD830051F819 /* Main.storyboard */,
+				1EE7AFD62048FD830051F819 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1EA709F6204DBDFA00FD1B8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7AFD42048FD830051F819 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1EA709F7204DBE0900FD1B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7AFD92048FD830051F819 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EA709FE204DD1A500FD1B8E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1EA709FF204DD1D200FD1B8E /* Weather.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		1EA70A01204DD8C900FD1B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EA70A02204DD8C900FD1B8E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EE7AFC12048FD830051F819 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +156,7 @@
 				1EE7AFE12048FD830051F819 /* Dress CoordinatorTests */,
 				1EE7AFEC2048FD830051F819 /* Dress CoordinatorUITests */,
 				1EE7AFCB2048FD830051F819 /* Products */,
+				1EA70A01204DD8C900FD1B8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +173,13 @@
 		1EE7AFCC2048FD830051F819 /* Dress Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				1EE7AFCD2048FD830051F819 /* AppDelegate.swift */,
-				1EE7AFCF2048FD830051F819 /* ViewController.swift */,
-				1EE7AFD12048FD830051F819 /* Main.storyboard */,
-				1EE7AFD42048FD830051F819 /* Assets.xcassets */,
-				1EE7AFD62048FD830051F819 /* LaunchScreen.storyboard */,
-				1EE7AFD92048FD830051F819 /* Info.plist */,
+				1EA709F2204DBD7D00FD1B8E /* Application Delegate */,
+				1EA709F4204DBDA900FD1B8E /* Models */,
+				1EA709F3204DBD9000FD1B8E /* View Controllers */,
+				1EA709F5204DBDDF00FD1B8E /* Storyboards */,
+				1EA709FE204DD1A500FD1B8E /* Managers */,
+				1EA709F6204DBDFA00FD1B8E /* Resources */,
+				1EA709F7204DBE0900FD1B8E /* Supporting Files */,
 			);
 			path = "Dress Coordinator";
 			sourceTree = "<group>";
@@ -262,8 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE7AFD02048FD830051F819 /* ViewController.swift in Sources */,
 				1EE7AFCE2048FD830051F819 /* AppDelegate.swift in Sources */,
+				1EA709F1204DBD0000FD1B8E /* ClassSchedule.swift in Sources */,
+				1EE7AFFC204A3BBA0051F819 /* ChooseDressViewController.swift in Sources */,
+				1EA709EF204DBC0C00FD1B8E /* DressCombination.swift in Sources */,
+				1EA70A00204DD1D200FD1B8E /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +594,7 @@
 				1EE7AFF42048FD830051F819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EE7AFF52048FD830051F819 /* Build configuration list for PBXNativeTarget "Dress CoordinatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +603,7 @@
 				1EE7AFF72048FD830051F819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EE7AFF82048FD830051F819 /* Build configuration list for PBXNativeTarget "Dress CoordinatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +612,7 @@
 				1EE7AFFA2048FD830051F819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
