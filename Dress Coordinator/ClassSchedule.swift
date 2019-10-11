@@ -11,13 +11,13 @@ import Foundation
 class ClassSchedule {
     
     let schedule: [String: String] = [
-        "A": "Free",
-        "B": "History",
-        "C": "English",
-        "D": "Math",
-        "E": "Spanish",
-        "F": "Biology",
-        "G": "Physics"
+        "A": "Physics E & M",
+        "B": "Philosophy Seminar",
+        "C": "Design Thinking",
+        "D": "ENG4AP",
+        "E": "AP CS A",
+        "F": "Free",
+        "G": "Graph Theory"
     ]
 
 }

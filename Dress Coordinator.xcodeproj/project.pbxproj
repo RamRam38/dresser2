@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4D06B221A088410043DCFC /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D06B121A088410043DCFC /* ImageCollectionViewCell.swift */; };
 		1EA709EF204DBC0C00FD1B8E /* DressCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA709EE204DBC0C00FD1B8E /* DressCombination.swift */; };
 		1EA709F1204DBD0000FD1B8E /* ClassSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA709F0204DBD0000FD1B8E /* ClassSchedule.swift */; };
 		1EA70A00204DD1D200FD1B8E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA709FF204DD1D200FD1B8E /* Weather.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E4D06B121A088410043DCFC /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		1EA709EE204DBC0C00FD1B8E /* DressCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DressCombination.swift; sourceTree = "<group>"; };
 		1EA709F0204DBD0000FD1B8E /* ClassSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSchedule.swift; sourceTree = "<group>"; };
 		1EA709FF204DD1D200FD1B8E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		1EA709F3204DBD9000FD1B8E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1E4D06B121A088410043DCFC /* ImageCollectionViewCell.swift */,
 				1EE7AFFB204A3BBA0051F819 /* ChooseDressViewController.swift */,
 			);
 			name = "View Controllers";
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4D06B221A088410043DCFC /* ImageCollectionViewCell.swift in Sources */,
 				1EE7AFCE2048FD830051F819 /* AppDelegate.swift in Sources */,
 				1EA709F1204DBD0000FD1B8E /* ClassSchedule.swift in Sources */,
 				1EE7AFFC204A3BBA0051F819 /* ChooseDressViewController.swift in Sources */,
